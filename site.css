@@ -53,6 +53,9 @@ body{
   text-align:left;
   color:Blue;
  }
+ .subtitle td{
+	font-size:100%;
+ }
  p.thick {
 	font-weight: bold;
  }
@@ -105,13 +108,19 @@ a{
 .divider{
 	height: 160px;
 }
-figure img {
+figure {
+	display: block;
+	margin: 0; 
+	padding: 0;
 	max-width: 90%;
+}
+figure img {
+	max-width: 100%;
 }
 .content p {
 	text-indent:50px;
-	font-size:150%;
-	line-height:150%;
+	font-size:120%;
+	line-height:120%;
 	text-align: left;
 }
 .container {
@@ -228,7 +237,7 @@ figure img {
   background-color:#002157;
 }
 table td a {
-  word-break:break-all;
+ // word-break:break-all;
 }
 table.gridtable {
 	font-family: verdana,arial,sans-serif;
