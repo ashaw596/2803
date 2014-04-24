@@ -10,6 +10,24 @@ body{
   text-align: center;
   overflow-y: scroll;
 }
+h2 {
+	text-align:left;
+}
+figcaption {
+	 font-family:Sans-serif;
+	 font-size:80%;
+}
+.navbar span {
+	width:10px;
+	white-space: nowrap;
+  text-decoration:none;
+  color:white;
+  -webkit-backface-visibility: hidden;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
 .container{
   padding-bottom: 45px;
   margin: 0 auto;
@@ -34,6 +52,7 @@ body{
     position:fixed;
     top:0;
     left:0;
+	z-index:9000;
 }
  table.center {
     margin-left:auto; 
@@ -53,6 +72,9 @@ body{
   text-align:left;
   color:Blue;
  }
+.quote {
+	 font-family:Sans-serif;
+}
  .subtitle td{
 	font-size:100%;
  }
@@ -62,6 +84,36 @@ body{
 .contact td{
   padding-right: 30px;
   padding-bottom: 10px;
+}
+.navbar li {
+
+  padding-right: 30px;
+display: inline-block;
+	list-style: none;
+}
+.navbar li a {
+	
+	text-decoration: none; }
+.navbar li ul {
+	display: none; 
+	width: 5em; /* Width to help Opera out */
+	}
+.navbar li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0; 
+	
+	background-color: #4400FF;
+}
+.navbar li:hover li {
+	float: none; 
+}
+.navbar li:hover li a {
+	background-color: #8db3ff;
+	color: white; }
+.navbar li li a:hover {
+	background-color: #8db3ff;
 }
 .navbar{
   background-color: #FF3333	;
@@ -90,8 +142,9 @@ a{
 .navbar a{
   white-space: nowrap;
   text-decoration:none;
-  padding-right: 60px;
   color:white;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .black a{
 	color:black;
@@ -124,22 +177,21 @@ figure img {
 	text-align: left;
 }
 .container {
-	padding-top:60px;
+	padding-top:65px;
 	margin-left: auto;
 	margin-right: auto;	
 }
 .content{
   background: #ffffff ;
   height:auto;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 	padding-right: 40px;
 	padding-left: 40px;
   padding-bottom: 30px;
   padding-top: 20px;
   behavior: url(css/border-radius.htc);
   border-radius: 10px;
-  max-width:700px;
 }
 .mainpanel{
 	text-align:ceneter;
