@@ -4,12 +4,54 @@ html {
   padding: 10px;
 }
 body{
+background: #217C7E; /* For Safari 5.1 to 6.0 */
   margin: 0px;
-  background: #E5E5E5;
   padding-top:20px;
   text-align: center;
   overflow-y: scroll;
 }
+.content{
+font-family:Trebuchet MS;
+	color: #Black;
+  background: #F3EFE0 ;
+  height:auto;
+  margin-right: 5px;
+  margin-left: 5px;
+	padding-right: 50px;
+	padding-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  behavior: url(css/border-radius.htc);
+  border-radius: 50px;
+}
+.navbar{
+  background-color: #003366;
+  border-right: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
+  font-size: 14px;
+  line-height:140%;
+  padding-right: 0px;
+  padding-bottom: 13px;
+  margin-bottom: 20px;
+
+	
+  /*height:37px;*/
+  width:100%;
+  font-family:arial;
+  font-size:125%;
+  color:black;
+  padding-top: 13px;
+  _height:50px;
+  behavior: url(PIE.htc);
+}
+ .top td{
+	font-weight:900;
+  width:auto;
+  font-family:verdana;
+  font-size:230%;
+  text-align:left;
+  color: #FFF8DC;
+ }
 h2 {
 	text-align:left;
 }
@@ -65,13 +107,7 @@ figcaption {
 	padding-top:40px;
 	padding-bottom:20px;
  }
- .top td{
-  width:auto;
-  font-family:verdana;
-  font-size:230%;
-  text-align:left;
-  color:Blue;
- }
+
 .quote {
 	 font-family:Sans-serif;
 }
@@ -115,26 +151,6 @@ display: inline-block;
 .navbar li li a:hover {
 	background-color: #8db3ff;
 }
-.navbar{
-  background-color: #FF3333	;
-  border-right: 1px solid #DEDEDE;
-  border-bottom: 1px solid #DEDEDE;
-  font-size: 14px;
-  line-height:140%;
-  padding-right: 0px;
-  padding-bottom: 13px;
-  margin-bottom: 20px;
-
-	
-  /*height:37px;*/
-  width:100%;
-  font-family:arial;
-  font-size:125%;
-  color:black;
-  padding-top: 13px;
-  _height:50px;
-  behavior: url(PIE.htc);
-}
 
 a{
   word-wrap: break-word;
@@ -172,27 +188,23 @@ figure img {
 }
 .content p {
 	text-indent:50px;
-	font-size:120%;
-	line-height:120%;
+	font-size:140%;
+	line-height:140%;
 	text-align: left;
+	
+}
+.bib div {
+	text-align:left;
+	line-height:200%;
+	padding-left: 45px;
+    text-indent: -45px;
 }
 .container {
 	padding-top:65px;
 	margin-left: auto;
 	margin-right: auto;	
 }
-.content{
-  background: #ffffff ;
-  height:auto;
-  margin-right: 5px;
-  margin-left: 5px;
-	padding-right: 40px;
-	padding-left: 40px;
-  padding-bottom: 30px;
-  padding-top: 20px;
-  behavior: url(css/border-radius.htc);
-  border-radius: 10px;
-}
+
 .mainpanel{
 	text-align:ceneter;
   /*text-align:left;
