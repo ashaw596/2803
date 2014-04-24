@@ -52,7 +52,7 @@ figcaption {
     position:fixed;
     top:0;
     left:0;
-	z-index:9000;
+	z-index:2;
 }
  table.center {
     margin-left:auto; 
